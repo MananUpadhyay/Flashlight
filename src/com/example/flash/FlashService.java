@@ -12,7 +12,11 @@ import android.os.IBinder;
 import android.util.Log;
 import android.widget.RemoteViews;
 import android.widget.Toast;
-
+/**
+ * 
+ * Can be used instead of the BroadcastReceiver but an overkill and hence abandoned.
+ * 
+*/
 public class FlashService extends Service {
 	Context mContext;
 	boolean mFlashPresentFlag;
